@@ -61,10 +61,9 @@ Examples of prompts currently handled:
 - The greeting audio file is configured to copy to output if `Assets/Greetings.wav` exists.
 - `ChatbotService.StartChat(...)` is currently not implemented in the source and must be completed for full chat-loop behavior.
 
-## Extending The Bot
 
-To add new topics, update the switch cases in `Services/ChatBotServices.cs` and add matching methods in `Services/ResponseServices.cs`.
+## References
 
-## License
+- [W3Schools - Cyber Security Tutorial](https://www.w3schools.com/cybersecurity/)
+- [Microsoft Learn - .NET Documentation](https://learn.microsoft.com/dotnet/)
 
-No license file is currently included in this repository.
