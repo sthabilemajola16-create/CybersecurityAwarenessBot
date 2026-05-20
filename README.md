@@ -91,10 +91,28 @@ User: Give me another tip
 Bot: Another tip for you: [another random phishing tip]
 ```
 
+## Repository
+
+**Local Git:** initialized with 6 commits (meets minimum requirement).
+
+**Next steps:**
+1. Create a new repository on [GitHub](https://github.com/new)
+2. Push this project:
+   ```bash
+   git remote add origin https://github.com/YOUR_USERNAME/CybersecurityAwarenessBot.git
+   git branch -M main
+   git push -u origin main
+   ```
+3. Create **2–3 Releases** on GitHub (e.g. `v1.0-part1`, `v2.0-part2`) with short release notes
+
+## Video Presentation
+
+_Add your YouTube unlisted link here after recording._
+
 ## Submission Checklist (ARC / GitHub)
 
 - [ ] Complete project folder on GitHub (source, README, `Assets/Greetings.wav`)
-- [ ] Minimum **6 meaningful commits**
+- [x] Minimum **6 meaningful commits** (done locally)
 - [ ] **Releases/tags** on GitHub (rubric: at least 2–3 tagged releases with notes)
 - [ ] **YouTube unlisted video** — voice-over explaining structure, logic, delegates, memory, sentiment
 - [ ] Submit GitHub + video links on ARC
