@@ -107,24 +107,22 @@ Bot: Another tip for you: [another random phishing tip]
 
 ## Video Presentation
 
-_Add your YouTube unlisted link here after recording._
+- **Part 1:** https://youtu.be/uaExzqCbxa4  
+- **Part 2:** _Add your unlisted YouTube link here after recording_
+
+### Part 2 voice-over summary (read while demoing the app and code)
+
+Hello, I am **[Andiswa Majola]**, student number **[ST10486077]**. This is **Part 2** of my Cybersecurity Awareness Bot. **Part 1** was a console app with ASCII art and a voice greeting — see https://youtu.be/uaExzqCbxa4. **Part 2** upgrades it to a **WPF GUI** in C# (.NET 10) that teaches cybersecurity topics such as passwords, phishing, scams, privacy, malware, and safe browsing. The interface keeps the ASCII header and **Greetings.wav** audio, uses a chat panel with styled bubbles, and asks for the user's name for personalisation. The bot uses **keyword recognition** (`KeywordRecognizer` dictionary) to understand natural questions, **random responses** (`ResponseService` lists) so tips vary, and **conversation flow** (`ConversationContext`) so phrases like "give me another tip" continue the same topic. **Memory** (`MemoryService` with `List<UserMemoryEntry>`) stores interests and recalls them later; **sentiment detection** (`SentimentDetector` and a **delegate** in `SentimentResponseAdapter`) adjusts replies when users sound worried, curious, or frustrated — for example, "I'm worried about online scams" gets empathy plus an immediate tip. **Error handling** returns friendly fallbacks without crashing. The code is organised into Models, Services, Delegates, and UI files such as `ChatbotService`, `MainWindow.xaml`, and `ResponseDelegates.cs`. The full project is on GitHub with six or more commits and tagged releases. Thank you for watching.
+
+---
 
 ## Submission Checklist (ARC / GitHub)
 
 - [ ] Complete project folder on GitHub (source, README, `Assets/Greetings.wav`)
-- [x] Minimum **6 meaningful commits** (done locally)
+- [x] Minimum **6 meaningful commits** (7 commits done locally)
 - [ ] **Releases/tags** on GitHub (rubric: at least 2–3 tagged releases with notes)
 - [ ] **YouTube unlisted video** — voice-over explaining structure, logic, delegates, memory, sentiment
 - [ ] Submit GitHub + video links on ARC
-
-## Video Presentation Outline
-
-1. Introduction and purpose of the bot  
-2. GUI tour (layout, colors, ASCII art, greeting audio)  
-3. Code walkthrough: `ChatbotService`, `KeywordRecognizer`, `ResponseService`  
-4. Demo: sentiment ("I'm worried about scams"), memory, follow-ups  
-5. Delegates and generic collections (`MemoryService`, `ResponseDelegates`)  
-6. Error handling and future Part 3 extensibility  
 
 ## References
 
