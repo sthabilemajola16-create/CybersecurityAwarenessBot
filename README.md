@@ -75,12 +75,7 @@ Bot: Another tip for you: [another random phishing tip]
 Video Presentation **YoutubeVideo**
 
 - **Part 1:** https://youtu.be/uaExzqCbxa4  
-- **Part 2:** 
-
-### Part 2 voice-over summary 
-
-**Part 1** was a console app with ASCII art and a voice greeting — see https://youtu.be/uaExzqCbxa4. **Part 2** upgrades it to a **WPF GUI** in C# (.NET 10) that teaches cybersecurity topics such as passwords, phishing, scams, privacy, malware, and safe browsing. The interface keeps the ASCII header and **Greetings.wav** audio, uses a chat panel with styled bubbles, and asks for the user's name for personalisation. The bot uses **keyword recognition** (`KeywordRecognizer` dictionary) to understand natural questions, **random responses** (`ResponseService` lists) so tips vary, and **conversation flow** (`ConversationContext`) so phrases like "give me another tip" continue the same topic. **Memory** (`MemoryService` with `List<UserMemoryEntry>`) stores interests and recalls them later; **sentiment detection** (`SentimentDetector` and a **delegate** in `SentimentResponseAdapter`) adjusts replies when users sound worried, curious, or frustrated — for example, "I'm worried about online scams" gets empathy plus an immediate tip. **Error handling** returns friendly fallbacks without crashing. The code is organised into Models, Services, Delegates, and UI files such as `ChatbotService`, `MainWindow.xaml`, and `ResponseDelegates.cs`. The full project is on GitHub with six or more commits and tagged releases. Thank you for watching.
-
+- **Part 2:** https://youtu.be/twMD03EOrIg
 
 ## References
 
